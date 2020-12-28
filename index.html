@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo javaScript</title>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body onload="carregado()">
+    <button type="button" onclick="botao()">Clique nesse botao papae</button>
+    <h3 id="botao" onmouseover="alerta()" onmouseout="voltar()"></h3>
+    <button type="button" onclick="redirecionar()">Vamo pro google</button>
+    <button type="button" onclick="redirecionar2()">Vamo pro google na mesma pagina</button>
+    <p onmouseover="alertaGen(this)" onmouseout="voltarGen(this)">essa funcaoa qui eh generica pra caramba</p>
+    <p onmouseover="alertaGen(this)" onmouseout="voltarGen(this)">verdade, eh msm</p>
+    <select onchange="naTroca(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">valor 2</option>
+        <option value="3">v3</option>
+    </select>
+</body>
+</html>
